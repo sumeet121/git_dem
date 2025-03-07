@@ -1,0 +1,119 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;  /* Light blue background color */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #4CAF50;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Section Styling */
+section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Gradient Background for a Section */
+section.gradient {
+    background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
